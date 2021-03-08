@@ -1,5 +1,2 @@
-## Logcat Panel Activity State Between Activities
-![](app/src/main/res/drawable/taskone.gif)
-\n\n
-## OnChange Orientation
-![](app/src/main/res/drawable/taskone1.gif)
+## Save and restore the activity instance state
+![](app/src/main/res/drawable/task2.gif)
