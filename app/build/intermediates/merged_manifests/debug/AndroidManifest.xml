@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.twoactivitieslifecycle"
+    package="com.example.twoactivitylifecyclecodingchallenge"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -13,20 +13,20 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/shopping_list"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.TwoActivities" >
+        android:theme="@style/Theme.TwoActivityLifeCycleCodingChallenge" >
         <activity
-            android:name="com.example.twoactivitieslifecycle.SecondActivity"
-            android:label="@string/activity2_name"
-            android:parentActivityName="com.example.twoactivitieslifecycle.MainActivity" >
+            android:name="com.example.twoactivitylifecyclecodingchallenge.Items"
+            android:label="@string/available_items"
+            android:parentActivityName="com.example.twoactivitylifecyclecodingchallenge.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.twoactivitieslifecycle.MainActivity" />
+                android:value="com.example.twoactivitylifecyclecodingchallenge.MainActivity" />
         </activity>
-        <activity android:name="com.example.twoactivitieslifecycle.MainActivity" >
+        <activity android:name="com.example.twoactivitylifecyclecodingchallenge.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

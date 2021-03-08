@@ -1,2 +1,2 @@
-## Counter Homework
-![](app/src/main/res/drawable/homework.gif)
+## Shopping List App
+![](app/src/main/res/drawable/coding.gif)
