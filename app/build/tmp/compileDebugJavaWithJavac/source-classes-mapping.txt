@@ -1,0 +1,6 @@
+com/example/twoactivitieslifecycle/MainActivity.java
+ com.example.twoactivitieslifecycle.MainActivity
+com/example/twoactivitieslifecycle/BuildConfig.java
+ com.example.twoactivitieslifecycle.BuildConfig
+com/example/twoactivitieslifecycle/SecondActivity.java
+ com.example.twoactivitieslifecycle.SecondActivity
